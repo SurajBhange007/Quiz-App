@@ -24,5 +24,5 @@ saveHighScore= (event)=>{
     highScores.splice(MAX_HIGH_SCORES);
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
-    window.location.assign('/')
+    window.location.assign('/Quiz-App/')
 }
